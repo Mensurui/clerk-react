@@ -53,3 +53,6 @@ export default tseslint.config({
 })
 ```
 # clerk-react
+
+ADD a `.env` file at the root with VITE_CLERK_PUBLISHABLE_KEY as the key and the publishable key as the value:
+i.e. `VITE_CLERK_PUBLISHABLE_KEY=pk_test_...`
